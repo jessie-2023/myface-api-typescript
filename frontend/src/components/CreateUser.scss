@@ -1,0 +1,13 @@
+form{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+
+ label{
+    margin-top: 1rem;
+ }
+
+ button{
+    margin-top: 3rem;
+ }
+}

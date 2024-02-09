@@ -1,0 +1,54 @@
+$widthMobile: 430px;
+$fontSizeBoby: 16px;
+$fontBold: 600;
+
+body {
+    background-color: #252A38;
+    color:#DCDCDC;
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: $widthMobile;
+
+        .user-container {
+            background-color: #151820;
+            margin: 0 0 1rem 0;
+            font-size: $fontSizeBoby;
+            text-align: left;
+            width: $widthMobile;
+        
+            img {
+                max-width: $widthMobile;
+            }
+
+            .message {
+                color: whitesmoke;
+                max-width: $widthMobile;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+            }
+        
+            .text-container {
+                margin-left: 0.5rem;
+                text-align: left;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-evenly;
+        
+                .username {
+                    font-weight: $fontBold; 
+                }
+        
+            }
+        
+            .stats {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                
+            }
+            
+        }
+    }
+}
